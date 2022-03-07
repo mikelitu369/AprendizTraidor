@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 787b2e257fc165b4481c9cd5314f9862, type: 3}
+  m_Name: DagaVinculada
+  m_EditorClassIdentifier: 
+  nombre: Daga Vinculada
+  descripcion: "Preparacion 1 // Persistente: 3 de da\xF1o si mele // Uso: 3 da\xF1o
+    y roba 1Preparacion 1 // Persistente: 3 de da\xF1o si mele // Uso: 3 da\xF1o
+    y roba 1"
+  coste: 0
+  tipo: 0
+  efecto: {fileID: 0}
+  preparacion: 1
+  espacio: 1
