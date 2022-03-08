@@ -5,6 +5,7 @@ using UnityEngine;
 public static class Jugador
 {
     public static Estadisticas estadisticas = new Estadisticas(100);
+    public static CartasJugador cartas = new CartasJugador();
     static int pr = 0;
 
     public static void SetEstadisticas(int vidaMaxima)

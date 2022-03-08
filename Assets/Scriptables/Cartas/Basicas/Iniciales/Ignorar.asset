@@ -16,4 +16,4 @@ MonoBehaviour:
   descripcion: 1pr O Gana una proteccion (50%)
   coste: 0
   tipo: 1
-  efecto: {fileID: 0}
+  efecto: {fileID: 6128194093996216593, guid: 6af36931c68e5744b8358d536b41c6ae, type: 3}

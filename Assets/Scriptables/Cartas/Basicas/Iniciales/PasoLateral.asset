@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3a34427f3e7fe540bf58c8a7cb86233, type: 3}
-  m_Name: Fatiga
+  m_Name: PasoLateral
   m_EditorClassIdentifier: 
-  nombre: Fatiga
-  descripcion: ...
+  nombre: Paso Lateral
+  descripcion: 1pr O 1 Movimiento O 1 esquiva
   coste: 0
-  tipo: 3
-  efecto: {fileID: 0}
+  tipo: 1
+  efecto: {fileID: 1376793168279164906, guid: e5517a72c2d3a0e4e851500d1dffb1e5, type: 3}
