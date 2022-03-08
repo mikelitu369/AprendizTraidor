@@ -16,14 +16,17 @@ public class MenuOpcionesMultiples : MonoBehaviour
 
     public void Reset()
     {
-        for (int i = 0; i < botones.Count; i++)
+        int botonesCount = botones.Count;
+        for (int i = 0; i < botonesCount; i++)
         {
             Destroy(botones[0]);
+            botones.RemoveAt(0);
         }
     }
 
     public void Activar(AccionCarta carta, int opciones)
     {
+        Reset();
         for (int i = 0; i < opciones; i++)
         {
             GameObject boton = Instantiate(prefabBoton, transform);
