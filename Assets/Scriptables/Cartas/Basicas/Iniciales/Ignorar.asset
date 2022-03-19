@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Ignorar
   m_EditorClassIdentifier: 
   nombre: Ignorar
-  descripcion: 1pr O Gana una proteccion (50%)
+  descripcion: 1pr // Gana una proteccion (50%)
   coste: 0
   tipo: 1
+  escuela: 0
   efecto: {fileID: 6128194093996216593, guid: 6af36931c68e5744b8358d536b41c6ae, type: 3}

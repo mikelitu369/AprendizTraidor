@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: PasoLateral
   m_EditorClassIdentifier: 
   nombre: Paso Lateral
-  descripcion: 1pr O 1 Movimiento O 1 esquiva
+  descripcion: 1pr // 1 Movimiento Aleatorio // 1 esquiva
   coste: 0
   tipo: 1
+  escuela: 0
   efecto: {fileID: 1376793168279164906, guid: e5517a72c2d3a0e4e851500d1dffb1e5, type: 3}

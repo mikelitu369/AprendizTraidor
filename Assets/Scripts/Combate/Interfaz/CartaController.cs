@@ -19,7 +19,17 @@ public class CartaController : MonoBehaviour, IPointerEnterHandler, IPointerExit
         if(carta.tipo != Carta.Tipo.Hechizo)
         {
             carta.efecto.Accion();
+            Jugador.cartas.Descarte.Add(carta);
             ManoController.instance.Descartar(carta);
+        }
+        else
+        {
+            Hechizo hechizo = (Hechizo)carta;
+            if (Jugador.GastarHuecosMentales(hechizo.espacio))
+            {
+                HuecosMentalesController.instance.CrearHechizo(carta);
+                ManoController.instance.Descartar(carta);
+            }
         }
     }
 

@@ -6,25 +6,9 @@ public class PasoLateralAccion : AccionCarta
 {
     public override void Accion()
     {
-        MenuOpcionesMultiples.instance.Activar(this, 4);
-    }
-
-    public override void Accion(int indice)
-    {
-        switch (indice)
-        {
-            case 0:
-                Jugador.GivePR(1);
-                break;
-            case 1:
-                Jugador.estadisticas.Acercarse(1);
-                break;
-            case 2:
-                Jugador.estadisticas.Alejarse(1);
-                break;
-            case 3:
-                Jugador.estadisticas.SetEsquiva(Estadisticas.GradoDefensa.Inferior);
-                break;
-        }
+        Jugador.GivePR(1);
+        if (Random.Range(0, 2) == 0) Jugador.estadisticas.Acercarse(1);
+        else Jugador.estadisticas.Alejarse(1);
+        Jugador.estadisticas.SetEsquiva(Estadisticas.GradoDefensa.Inferior);
     }
 }
