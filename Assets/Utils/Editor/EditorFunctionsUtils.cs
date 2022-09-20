@@ -15,7 +15,6 @@ namespace MKCL.Cards
             rect.height = i_height;
 
             EditorGUI.DrawRect(rect, new Color(0.5f, 0.5f, 0.5f, 1));
-
         }
     }
 }

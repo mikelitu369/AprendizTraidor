@@ -7,6 +7,6 @@ namespace MKCL.Cards
     [CreateAssetMenu(fileName = "CardData", menuName = "Cards/New Card")]
     public class CardData : ScriptableObject
     {
-        [SerializeField] public DictionaryCardEventListEffect cardEvents;
+        public DictionaryCardEventListEffect cardEvents;
     }
 }

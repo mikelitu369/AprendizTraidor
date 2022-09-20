@@ -4,5 +4,10 @@ namespace MKCL.Cards.Effects
     public class EffectDrawCards : CardEffect
     {
         public int drawCardNumber;
+
+        public override void Activate()
+        {
+            
+        }
     }
 }

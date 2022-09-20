@@ -4,5 +4,10 @@ namespace MKCL.Cards.Effects
     public class EffectDealDamage : CardEffect
     {
         public int damage;
+
+        public override void Activate()
+        {
+            
+        }
     }
 }
