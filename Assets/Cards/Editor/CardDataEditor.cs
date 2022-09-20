@@ -3,19 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-[CustomEditor(typeof(CardData))]
-public class CardDataEditor : Editor
+namespace MKCL.Cards
 {
-    CardData card;
-    CardEvents selectedEvent;
-
-    
-    public override void OnInspectorGUI()
+    [CustomEditor(typeof(CardData))]
+    public class CardDataEditor : Editor
     {
-        base.OnInspectorGUI();
+        CardData card;
+        CardEvents selectedEvent;
 
-        EditorFunctionsUtils.GuiLine();
 
-        selectedEvent = (CardEvents)EditorGUILayout.EnumPopup(selectedEvent);
+        public override void OnInspectorGUI()
+        {
+            base.OnInspectorGUI();
+
+            EditorFunctionsUtils.GuiLine();
+
+            selectedEvent = (CardEvents)EditorGUILayout.EnumPopup(selectedEvent);
+        }
     }
 }

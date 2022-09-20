@@ -1,8 +1,11 @@
-public enum CardEvents
+namespace MKCL.Cards
 {
-    OnPlay,
-    OnActive,
-    OnDraw,
-    OnDiscard,
-    OnBuy
+    public enum CardEvents
+    {
+        OnPlay,
+        OnActive,
+        OnDraw,
+        OnDiscard,
+        OnBuy
+    }
 }

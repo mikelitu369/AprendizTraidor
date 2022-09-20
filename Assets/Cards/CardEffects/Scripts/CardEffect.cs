@@ -1,5 +1,5 @@
-[System.Serializable]
-public class CardEffect
+namespace MKCL.Cards.Effects
 {
-    
+    [System.Serializable]
+    public abstract class CardEffect { }
 }

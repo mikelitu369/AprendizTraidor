@@ -1,5 +1,8 @@
-[System.Serializable]
-public class EffectGainPR : CardEffect
+namespace MKCL.Cards.Effects
 {
-    public int amuntPR;
+    [System.Serializable]
+    public class EffectGainPR : CardEffect
+    {
+        public int amuntPR;
+    }
 }

@@ -1,5 +1,8 @@
-[System.Serializable]
-public class EffectDealDamage : CardEffect
+namespace MKCL.Cards.Effects
 {
-    public int damage;
+    [System.Serializable]
+    public class EffectDealDamage : CardEffect
+    {
+        public int damage;
+    }
 }

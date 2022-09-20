@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using MKCL.Utils;
 
-[CreateAssetMenu(fileName = "CardData", menuName = "Cards/New Card")]
-public class CardData : ScriptableObject
+namespace MKCL.Cards
 {
-    [SerializeField] public DictionaryCardEventListEffect cardEvents;
+    [CreateAssetMenu(fileName = "CardData", menuName = "Cards/New Card")]
+    public class CardData : ScriptableObject
+    {
+        [SerializeField] public DictionaryCardEventListEffect cardEvents;
+    }
 }

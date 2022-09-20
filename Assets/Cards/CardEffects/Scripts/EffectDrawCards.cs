@@ -1,5 +1,8 @@
-[System.Serializable]
-public class EffectDrawCards : CardEffect
+namespace MKCL.Cards.Effects
 {
-    public int drawCardNumber;
+    [System.Serializable]
+    public class EffectDrawCards : CardEffect
+    {
+        public int drawCardNumber;
+    }
 }
