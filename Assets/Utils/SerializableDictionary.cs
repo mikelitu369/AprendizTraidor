@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using MKCL.Cards;
+using MKCL.Cards.Effects;
 
-namespace MKCL.Utils
-{
-    [System.Serializable]
-    public class DictionaryCardEventListEffect : Dictionary<CardEvents, List<CardEffect>> { }
-}
+
+[System.Serializable]
+public class DictionaryCardEventListEffect : SerializableDictionary<int, string> { }

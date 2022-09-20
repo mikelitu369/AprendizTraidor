@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ded8501f3b6606249a8f9050aed7d1fe, type: 3}
   m_Name: TestCard
   m_EditorClassIdentifier: 
+  cardEvents:
+    m_keys: 
+    m_values: []

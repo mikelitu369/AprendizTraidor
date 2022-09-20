@@ -15,10 +15,11 @@ namespace MKCL.Cards
         public override void OnInspectorGUI()
         {
             base.OnInspectorGUI();
-
+            /*
             EditorFunctionsUtils.GuiLine();
 
             selectedEvent = (CardEvents)EditorGUILayout.EnumPopup(selectedEvent);
+            */
         }
     }
 }
