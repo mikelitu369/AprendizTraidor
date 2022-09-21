@@ -103,7 +103,7 @@ namespace MKCL.Services.Provider
             {
                 //Crear una funcion extra para dicionarios
                 //Debug.Log("Going to finalize service: " + services.ElementAt(i).Value);
-                //services.ElementAt(i).Value.FinalizeService();
+                services.ElementAt(i).FinalizeService();
             }
             
 
