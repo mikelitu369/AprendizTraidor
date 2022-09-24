@@ -47,13 +47,19 @@ namespace MKCL.Cards
 
         void AddEffect()
         {
-            if (cardEffectList.Count == 0) LoadTypes();
+            if (cardEffectList.Count <= effectIndex || !cardEffectDictionary.ContainsKey(cardEffectList[effectIndex])) LoadTypes();
 
             string fullNameClass = cardEffectDictionary[cardEffectList[effectIndex]];
 
             object newEffectHandle = Activator.CreateInstance("Assembly-CSharp", fullNameClass).Unwrap();
 
             CardEffect effect = (CardEffect)newEffectHandle;
+
+            if (!data.cardEvents.ContainsKey(selectedEvent))
+            {
+                data.cardEvents[selectedEvent] = new EffectStorage();
+                data.cardEvents[selectedEvent].data = new List<CardEffect>();
+            }
 
             data.cardEvents[selectedEvent].data.Add(effect);
         }

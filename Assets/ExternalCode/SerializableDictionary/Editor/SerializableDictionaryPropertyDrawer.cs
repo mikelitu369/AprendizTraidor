@@ -103,12 +103,7 @@ public class SerializableDictionaryPropertyDrawer : PropertyDrawer
 			linePosition.y += EditorGUIUtility.singleLineHeight;
 			linePosition.xMax -= buttonWidth;
 
-			Debug.Log("cero " + keyArrayProperty);
 
-			//----------------------------------------------------------------------------
-			//Clanta(21-09-22): |Aqui es donde rompe tu script, keyArrayProperty se vuelve
-			//					|nulo, en algun momento de este bucle
-			//----------------------------------------------------------------------------
 
 			foreach (var entry in EnumerateEntries(keyArrayProperty, valueArrayProperty))
 			{
@@ -153,7 +148,6 @@ public class SerializableDictionaryPropertyDrawer : PropertyDrawer
 			EditorGUI.indentLevel--;
 		}
 
-		Debug.Log("primera " + keyArrayProperty);
 		if (buttonAction == Action.Add)
 		{
 			keyArrayProperty.InsertArrayElementAtIndex(buttonActionIndex);
@@ -174,10 +168,7 @@ public class SerializableDictionaryPropertyDrawer : PropertyDrawer
 		conflictState.conflictValuePropertyExpanded = false;
 
 
-		//--------------------------------------------------------------------------
-		//Clanta(21-09-22): |Aqui es donde rompe tu script, keyArrayProperty es nulo
-		//--------------------------------------------------------------------------
-		Debug.Log("segunda " + keyArrayProperty);
+
 		foreach (var entry1 in EnumerateEntries(keyArrayProperty, valueArrayProperty))
 		{
 			var keyProperty1 = entry1.keyProperty;
