@@ -8,18 +8,24 @@ namespace MKCL.Cards
     [CreateAssetMenu(fileName = "Card", menuName = "Cards/CardData")]
     public class CardData : ScriptableObject
     {
-        public string name;
+        public string cardName;
         public CardType Type;
         public int price;
         public int manaCost;
         public bool activeEffect;
-        public bool pasiveEffect;        
+        public bool pasiveEffect;
+        public int prepTime;
 
         [Header("Effects")]
+        [NonReorderable]
         public List<CardEffect> ActiveEffect;
+        [NonReorderable]
         public List<CardEffect> PasiveEffect;
+        [NonReorderable]
         public List<CardEffect> OnBuyEffect;
+        [NonReorderable]
         public List<CardEffect> DiscardEffect;
+        [NonReorderable]
         public List<CardEffect> PrepEffect;
     }
 

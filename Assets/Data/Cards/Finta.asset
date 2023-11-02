@@ -10,16 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d328290871815eb45860bdd2798b4c6f, type: 3}
-  m_Name: Quizas..
+  m_Name: Finta
   m_EditorClassIdentifier: 
-  name: Quizas...
+  cardName: Finta
   Type: 0
   price: 0
-  manaCost: 0
-  activeEffect: 0
+  manaCost: 1
+  activeEffect: 1
   pasiveEffect: 1
-  ActiveEffect: []
-  PasiveEffect: []
+  prepTime: 0
+  ActiveEffect:
+  - effectType: {fileID: 11400000, guid: 46cd2d99d65d03a4fa2bf903922527ae, type: 2}
+    value: 7
+  PasiveEffect:
+  - effectType: {fileID: 11400000, guid: c64ea7cc9b47a76429067ad3f3063c32, type: 2}
+    value: 0
   OnBuyEffect: []
   DiscardEffect: []
   PrepEffect: []

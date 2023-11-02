@@ -10,19 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d328290871815eb45860bdd2798b4c6f, type: 3}
-  m_Name: Nervios
+  m_Name: Caos
   m_EditorClassIdentifier: 
-  cardName: Nervios
+  cardName: Caos
   Type: 0
   price: 0
-  manaCost: 2
+  manaCost: 1
   activeEffect: 1
-  pasiveEffect: 0
-  prepTime: 0
+  pasiveEffect: 1
+  prepTime: 1
   ActiveEffect:
-  - effectType: {fileID: 11400000, guid: 39047ac971c30b745a13db090349e902, type: 2}
-    value: 0
-  PasiveEffect: []
+  - effectType: {fileID: 11400000, guid: 46cd2d99d65d03a4fa2bf903922527ae, type: 2}
+    value: 7
+  PasiveEffect:
+  - effectType: {fileID: 11400000, guid: 42a9270fe13c674488bab43cbd45b140, type: 2}
+    value: 1
   OnBuyEffect: []
   DiscardEffect: []
-  PrepEffect: []
+  PrepEffect:
+  - effectType: {fileID: 11400000, guid: 46cd2d99d65d03a4fa2bf903922527ae, type: 2}
+    value: 5
