@@ -1,4 +1,4 @@
-
+using MKCL.Cards;
 
 namespace System.Collections.Generic
 {
@@ -15,6 +15,11 @@ namespace System.Collections.Generic
                 list[i] = list[r];
                 list[r] = tmp;
             }
+        }
+
+        public static void Activate(this List<CardEffect> list)
+        {
+            foreach (CardEffect effect in list) effect.Activate();
         }
     }
 }

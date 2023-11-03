@@ -20,6 +20,10 @@ namespace MKCL.Cards
         [NonReorderable]
         public List<CardEffect> ActiveEffect;
         [NonReorderable]
+        public List<CardEffect> ActiveCloseEffect;
+        [NonReorderable]
+        public List<CardEffect> ActiveFarEffect;
+        [NonReorderable]
         public List<CardEffect> PasiveEffect;
         [NonReorderable]
         public List<CardEffect> OnBuyEffect;
