@@ -12,4 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b6796477ac75c44a9515991256876c6, type: 3}
   m_Name: Fuerza1
   m_EditorClassIdentifier: 
-  cards: []
+  cards:
+  - {fileID: 11400000, guid: 3cbc26a1a741cea4e9aec25e4ee1099d, type: 2}
+  - {fileID: 11400000, guid: d70e2406b00d1664ea7d07b9f27b01c2, type: 2}
+  - {fileID: 11400000, guid: d70e2406b00d1664ea7d07b9f27b01c2, type: 2}
+  - {fileID: 11400000, guid: d70e2406b00d1664ea7d07b9f27b01c2, type: 2}
+  - {fileID: 11400000, guid: a981fd674c43ff9448189710ff9937c8, type: 2}
+  - {fileID: 11400000, guid: a981fd674c43ff9448189710ff9937c8, type: 2}
+  - {fileID: 11400000, guid: a981fd674c43ff9448189710ff9937c8, type: 2}
+  - {fileID: 11400000, guid: a02ecfab45a6599469a7463c3583f9c1, type: 2}
+  - {fileID: 11400000, guid: a02ecfab45a6599469a7463c3583f9c1, type: 2}
+  - {fileID: 11400000, guid: a02ecfab45a6599469a7463c3583f9c1, type: 2}
+  - {fileID: 11400000, guid: 626e68229ea02854abc4f615ae24bc19, type: 2}
+  - {fileID: 11400000, guid: 626e68229ea02854abc4f615ae24bc19, type: 2}
+  - {fileID: 11400000, guid: 626e68229ea02854abc4f615ae24bc19, type: 2}

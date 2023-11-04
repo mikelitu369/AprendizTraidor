@@ -12,17 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d328290871815eb45860bdd2798b4c6f, type: 3}
   m_Name: TecnicaDeCombate
   m_EditorClassIdentifier: 
-  cardName: 
-  Type: 0
-  price: 0
-  manaCost: 0
-  activeEffect: 0
-  pasiveEffect: 0
+  cardName: Tecnica de Combate
+  Type: 1
+  price: 4
+  manaCost: 1
+  activeEffect: 1
+  pasiveEffect: 1
   prepTime: 0
-  ActiveEffect: []
+  ActiveEffect:
+  - effectType: {fileID: 11400000, guid: 46cd2d99d65d03a4fa2bf903922527ae, type: 2}
+    value: 10
   ActiveCloseEffect: []
   ActiveFarEffect: []
-  PasiveEffect: []
+  PasiveEffect:
+  - effectType: {fileID: 11400000, guid: 93b1f77dc2287154daea6843e81c2177, type: 2}
+    value: 7
   OnBuyEffect: []
   DiscardEffect: []
   PrepEffect: []

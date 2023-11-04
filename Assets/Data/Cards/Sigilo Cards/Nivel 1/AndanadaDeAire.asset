@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d328290871815eb45860bdd2798b4c6f, type: 3}
-  m_Name: DefensaCercana
+  m_Name: AndanadaDeAire
   m_EditorClassIdentifier: 
-  cardName: Defensa Cercana
-  Type: 1
-  price: 4
-  manaCost: 1
+  cardName: Andanada de Aire
+  Type: 2
+  price: 2
+  manaCost: 0
   activeEffect: 1
   pasiveEffect: 1
   prepTime: 0
-  ActiveEffect: []
-  ActiveCloseEffect:
-  - effectType: {fileID: 11400000, guid: 93b1f77dc2287154daea6843e81c2177, type: 2}
-    value: 20
+  ActiveEffect:
+  - effectType: {fileID: 11400000, guid: c5823f4b265e96d4881f7b388f992447, type: 2}
+    value: 1
+  - effectType: {fileID: 11400000, guid: c64ea7cc9b47a76429067ad3f3063c32, type: 2}
+    value: -1
+  ActiveCloseEffect: []
   ActiveFarEffect: []
   PasiveEffect:
   - effectType: {fileID: 11400000, guid: 42a9270fe13c674488bab43cbd45b140, type: 2}
-    value: 1
-  - effectType: {fileID: 11400000, guid: c64ea7cc9b47a76429067ad3f3063c32, type: 2}
     value: 1
   OnBuyEffect: []
   DiscardEffect: []
