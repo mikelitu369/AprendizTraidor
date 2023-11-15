@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d328290871815eb45860bdd2798b4c6f, type: 3}
+  m_Name: Eureka
+  m_EditorClassIdentifier: 
+  cardName: Eureka!
+  Type: 3
+  price: 7
+  manaCost: 1
+  activeEffect: 1
+  pasiveEffect: 1
+  prepTime: 0
+  ActiveEffect:
+  - effectType: {fileID: 11400000, guid: 09645ffd91dbe0c47a6f1ff12f5028b5, type: 2}
+    value: 0
+  ActiveCloseEffect: []
+  ActiveFarEffect: []
+  PasiveEffect:
+  - effectType: {fileID: 11400000, guid: d80196566258eed4a9fb94ef0393a65c, type: 2}
+    value: 0
+  OnBuyEffect: []
+  DiscardEffect: []
+  PrepEffect: []
