@@ -1,6 +1,6 @@
 using System;
 
-namespace MKCL.Services.Provider
+namespace MKCL.Services
 { 
 
     public interface IServiceProvider

@@ -5,7 +5,7 @@ using UnityEngine;
 
 
 
-namespace MKCL.Services.Provider
+namespace MKCL.Services
 {
     public abstract class ServiceProvider<T> : MonoBehaviour, IServiceProvider where T : IServiceProvider
     {
@@ -41,7 +41,7 @@ namespace MKCL.Services.Provider
 
         protected ServicesInitializationList config;
 
-        private void Awake()
+        protected void Awake()
         {
             if (!Instance) Instance = this;
             else Destroy(this.gameObject);

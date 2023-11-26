@@ -4,7 +4,7 @@ using UnityEngine;
 using System.Linq;
 
 
-namespace MKCL.Services.Provider
+namespace MKCL.Services
 {
     [CreateAssetMenu(fileName = "ServiceInitializationList", menuName = "ServiceProvider/New InitList")]
     public class ServicesInitializationList : ScriptableObject
